@@ -21,7 +21,7 @@ function App() {
         };
         loadData()
     }, []);
-    console.log(data)
+ 
     return (
         <div  >
             {data.map((item, index) => {
